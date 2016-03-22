@@ -167,13 +167,22 @@ Grid
 }
 
 /*
-=====================
-#Menu
+====================
+Clearfix
 ====================
 */
 
-#Menu {
-    width: 300px;
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    clear: both;
+    *zoom: 1;
 }
 
 /*
@@ -214,4 +223,15 @@ Navigation
 }
 .nav li: last child {
     margin-right: 0;
+}
+
+/*
+============================
+ABOUT
+============================
+*/
+
+#About {
+    text-align: center;
+    color: yellow;
 }
