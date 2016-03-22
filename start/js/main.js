@@ -184,21 +184,3 @@ jQuery(document).ready(function ($) {
         $newWord.removeClass('is-hidden').addClass('is-visible');
     }
 });
-
-function initMap() {
-    var mapDiv = document.getElementById('map');
-    var map = new google.maps.Map(mapDiv, {
-        center: {
-            lat: 44.540,
-            lng: -78.546
-        },
-        zoom: 8
-    });
-}
-
-$('#sidebar a').click(
-    function () {
-        $("#sidebar a").removeClass("active");
-        $(this).addClass("active");
-    }
-);
