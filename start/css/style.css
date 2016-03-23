@@ -235,7 +235,7 @@ Navigation
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background: #5856D6;
+    background: yellow;
     width: 100%;
     max-width: 768px;
     border-radius: 5px;
@@ -257,7 +257,7 @@ Navigation
     float: right;
 }
 .navbar li a {
-    color: #e8f1f2;
+    color: #f00;
     text-decoration: none;
     font-size: 16px;
 }
