@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic|Poiret+One);
+
 /* --------------------------------
 
 Primary style
@@ -20,9 +22,10 @@ html {
 }
 body {
     font-size: 1.6rem;
-    font-family: "Source Sans Pro", sans-serif;
-    color: #aebcb9;
-    background-color: #0d0d0d;
+    font-family: "poiret one", cursive;
+    color: #f00;
+    background-color: #ffcc11;
+    background-image: url(css/images/back.jpg);
 }
 a {
     text-decoration: none;
@@ -145,6 +148,9 @@ Grid
 .grid {
     margin: 0 auto;
     width: 960px;
+    color: #f00;
+    background-color: #ffcc11;
+    font-family: "poiret one", cursive;
 }
 .grid,
 .col-1-3,
@@ -196,14 +202,14 @@ Rows
     min-width: 960px;
 }
 .row {
-    background: white;
+    background: #ffcc11;
     padding: 66px 0 44px 0;
 }
 .row-alt {
-    background: #cbe2c1;
-    background: -webkit-linear-gradient(to right, #a1d3bo, #f6f1d3);
-    background: -moz-linear-gradient(to right, #a1d3bo, #f6f1d3);
-    background: linear-gradient(to right, #a1d3bo, #f6f1d3);
+    background: #f00;
+    background: -webkit-linear-gradient(to right, #a1d3bo, #ffcc11);
+    background: -moz-linear-gradient(to right, #a1d3bo, #ffcc11);
+    background: linear-gradient(to right, #a1d3bo, #ffcc11);
     padding: 44px 0 22px 0;
 }
 
@@ -230,8 +236,3 @@ Navigation
 ABOUT
 ============================
 */
-
-#About {
-    text-align: center;
-    color: yellow;
-}
