@@ -230,9 +230,78 @@ Navigation
 .nav li: last child {
     margin-right: 0;
 }
+.navbar {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background: #5856D6;
+    width: 100%;
+    max-width: 768px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 45px;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+}
+.navbar li {
+    display: inline-block;
+    padding: 15px 18px;
+}
+.navbar li.right {
+    float: right;
+}
+.navbar li a {
+    color: #e8f1f2;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar li a span.menu {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #e8f1f2;
+    position: relative;
+    top: 7px;
+}
+.navbar li a span.menu::before,
+.navbar li a span.menu::after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #e8f1f2;
+    position: absolute;
+    left: 0;
+    right: auto;
+    bottom: auto;
+}
+.navbar li a span.menu::before {
+    top: -8px;
+}
+.navbar li a span.menu::after {
+    top: 8px;
+}
 
 /*
-============================
-ABOUT
-============================
+=================================
+Primary Footer
+=================================
 */
+
+.primary-footer {
+    color: midnightblue;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+    align-content: center;
+}
+.primary-footer {
+    float: left;
+    font-weight: 400;
+}
