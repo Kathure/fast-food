@@ -305,3 +305,72 @@ Primary Footer
     float: left;
     font-weight: 400;
 }
+
+/*
+===========================
+comment form
+===========================
+*/
+
+form {
+    margin-bottom: 22px;
+}
+.register-group label {
+    color: #ffcc11;
+    cursor: pointer;
+    font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+    border: 1px solid #ffcc11;
+    border-radius: 5px;
+    color: #f00;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+    width: 100%;
+}
+.register-group select {
+    height: 34px;
+    width: 60px;
+}
+.register-group textarea {
+    height: 78px;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+    border-radius: 5px;
+    color: #ffcc11;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.btn-default {
+    border: 0;
+    background: #f00 padding: 11px 30px;
+    font-size: 14px;
+}
+.btn-default:hover {
+    background: #77a198;
+}
+.btn-alt {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+}
+.btn-alt:hover {
+    background: #fff;
+    color: #ffcc11;
+}
